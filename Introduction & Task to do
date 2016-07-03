@@ -1,8 +1,3 @@
-(Systems Track ) B Tree Problems
-B+ Tree Problems [ You can find all related data files in Fb group ]
-
-Note : This Doc is prepared and reviewed by students(Rahul,Jyothsna ) of your batch , so this can be used as reference ,So if you find any mistakes ,do let me know .
-
 1. Given a list of student records in a CSV file, 1st task is to construct a B+tree in a binary file where all the leaf nodes are the student records and non leaf nodes hold the keys and offsets of the records which are present in the leaf nodes. 2nd task is to query the B+Tree which is in the binary file based on the student roll numbers ( range scan of roll numbers and perform group by for the result based on college name )
 Structure for leaf Node
 struct student(size : 64 Bytes )
